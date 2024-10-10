@@ -2,10 +2,10 @@ import random
 opcion =0
 
 while opcion !=6:
-    print("Menu de opciones")
+    print("MENU DE EJERCICIOS")
     print("1. Ejercicio 2.1")
     print("2. Ejercicio 2.2")
-    print("3. Ejercicio 2.3 (Incompleto)")
+    print("3. Ejercicio 2.3")
     print("4. Ejercicio 2.4")
     print("5. Ejercicio 2.5")
     opcion = int(input("Elija una opcion: "))
@@ -21,6 +21,17 @@ while opcion !=6:
             while num <= 50:
                 print (num)
                 num = num+2
+        case 3:
+            Palabra = input("Digite una letra: ").lower()
+            contador_vocales = 0
+            inicio =0
+
+            while inicio <  len(Palabra):
+                if Palabra[inicio] == "a" or Palabra[inicio] == "e" or Palabra[inicio]== "i" or Palabra[inicio]=="o" or Palabra[inicio]== "u":
+                    contador = contador +1
+                inicio = inicio +1
+            print(f"El número de vocales es:", contador)
+                    
         case 4:
             Numero_Dado =0
             while Numero_Dado !=6:

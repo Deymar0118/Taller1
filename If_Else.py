@@ -4,7 +4,7 @@ while opcion !=6:
     print("1. Ejercicio 1.1")
     print("2. Ejercicio 1.2")
     print("3. Ejercicio 1.3")
-    print("4. Ejercicio 1.4 (Sin Hacer)")
+    print("4. Ejercicio 1.4")
     print("5. Ejercicio 1.5")
     print("6. Salir")
     print("------------------")
@@ -45,6 +45,14 @@ while opcion !=6:
                 print("Rendimiento: Insuficiente")
             else:
                 print("Nota invalida")
+        case 4:
+            temp = float(input("Introduce una temperatura (en grados Celsius): "))
+            if temp <= 10:
+                print("La temperatura es fría.")
+            elif 10 < temp <= 25:
+                print("La temperatura es templada.")
+            else:
+                print("La temperatura es cálida.")
         case 5 :
             palabra = str (input("ingrese la parabra 'Jengibre': "))
             if palabra == 'Jengibre':
