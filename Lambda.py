@@ -41,3 +41,5 @@ while opcion !=6:
             Cuadrado = map(lambda a: a **2,lista)
             print("listado de numeros elevados a la 2")
             print (list(Cuadrado))
+        case 6:
+            print("Finalizando programa")

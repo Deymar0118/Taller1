@@ -72,3 +72,5 @@ while opcion !=6:
 
                     case 3:
                         print("Finalizando programa...")
+        case 6:
+            print("Finalizando programa")
